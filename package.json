@@ -1,0 +1,22 @@
+{
+  "name": "@kjosul-dev/prettier-config",
+  "version": "1.0.0",
+  "description": "Kjosul's Prettier config.",
+  "main": "main.json",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjosul-dev/prettier-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kjosul-dev/prettier-config/issues"
+  },
+  "author": "kjosul-dev",
+  "keywords": [
+    "prettier",
+    "prettier-config"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
