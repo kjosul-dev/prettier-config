@@ -28,9 +28,9 @@ If the default configuration meets your requirements, simply modify `package.jso
 If you need to override certain properties, utilize a `.prettierrc.js` file instead:
 
 ```js
-import prettierConfig from '@kjosul-dev/prettier-config';
+const prettierConfig = require('@kjosul-dev/prettier-config');
 
-export default {
+module.exports = {
     ...prettierConfig,
     semi: false,
 };
