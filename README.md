@@ -5,7 +5,7 @@ Kjosul's [Prettier](https://prettier.io) config.
 ## Installation
 
 ```sh
-$ npm i -D @kjosul-dev/prettier-config
+npm i -D @kjosul-dev/prettier-config
 ```
 
 ## Usage
@@ -18,8 +18,8 @@ If the default configuration meets your requirements, simply modify `package.jso
 
 ```jsonc
 {
-  // ...
-  "prettier": "@kjosul-dev/prettier-config"
+    // ...
+    "prettier": "@kjosul-dev/prettier-config"
 }
 ```
 
@@ -28,10 +28,10 @@ If the default configuration meets your requirements, simply modify `package.jso
 If you need to override certain properties, utilize a `.prettierrc.js` file instead:
 
 ```js
-import prettierConfig from "@kjosul-dev/prettier-config";
+import prettierConfig from '@kjosul-dev/prettier-config';
 
 export default {
-  ...prettierConfig,
-  semi: false,
+    ...prettierConfig,
+    semi: false,
 };
 ```
