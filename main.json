@@ -4,5 +4,13 @@
     "singleQuote": true,
     "trailingComma": "es5",
     "arrowParens": "avoid",
-    "vueIndentScriptAndStyle": true
+    "vueIndentScriptAndStyle": true,
+    "overrides": [
+        {
+            "files": "*.yml",
+            "options": {
+                "tabWidth": 2
+            }
+        }
+    ]
 }
