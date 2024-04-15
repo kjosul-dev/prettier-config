@@ -25,13 +25,17 @@ If the default configuration meets your requirements, simply modify `package.jso
 
 ### Custom configuration
 
-If you need to override certain properties, utilize a `.prettierrc.js` file instead:
+If you need to override certain properties, utilize a `.prettierrc.cjs` file instead:
 
 ```js
 const prettierConfig = require('@kjosul-dev/prettier-config');
 
 module.exports = {
     ...prettierConfig,
-    semi: false,
+
+    plugins: ['prettier-plugin-tailwindcss'],
+    tailwindConfig: './tailwind.config.ts',
 };
 ```
+
+> ⚠️ We utilize a `.cjs` configuration for Prettier due to `"type": "module"` declaration in `package.json`.
