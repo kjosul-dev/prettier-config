@@ -4,6 +4,14 @@ Kjosul's [Prettier](https://prettier.io) config.
 
 ## Installation
 
+Add the following line to your `.npmrc` file:
+
+```sh
+@kjosul:registry=https://npm-proxy.fury.io/kjosul/
+```
+
+Then, install the package:
+
 ```sh
 npm i -D @kjosul/prettier-config
 ```
