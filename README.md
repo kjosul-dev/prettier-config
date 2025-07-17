@@ -42,7 +42,7 @@ module.exports = {
     ...prettierConfig,
 
     plugins: ['prettier-plugin-tailwindcss'],
-    tailwindConfig: './tailwind.config.ts',
+    tailwindStylesheet: './src/assets/style/main.css',
 };
 ```
 
